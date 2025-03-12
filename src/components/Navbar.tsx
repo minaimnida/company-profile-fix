@@ -41,13 +41,13 @@ const Navbar = () => {
           {/* entah kenapa navbar about us yang sebelumnya tidak mengarahkan ke spesifik page tinggal ditambahkan slash (/) di id yang sebelumnnya hanya (#pr0ducts) */}
 
           <Link
-            href="/#products"
+            href="/products"
             className="hover:text-green-600 font-medium transition"
           >
             Product Collection
           </Link>
           <Link
-            href="/#blog"
+            href="/blogs"
             className="hover:text-green-600 font-medium transition"
           >
             Tips & Tricks Blog
@@ -88,14 +88,14 @@ const Navbar = () => {
               About Us
             </Link>
             <Link
-              href="#products"
+              href="products"
               className="hover:text-green-600 font-medium transition"
               onClick={toggleNav}
             >
               Product Collection
             </Link>
             <Link
-              href="#blog"
+              href="blogs"
               className="hover:text-green-600 font-medium transition"
               onClick={toggleNav}
             >

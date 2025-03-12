@@ -14,7 +14,7 @@ const blogPosts: BlogPost[] = [
         title: "5 Tips to Keep Your Indoor Plants Thriving",
         excerpt: "Discover essential care tips to help your plants stay happy and healthy all year round.",
         image: "/blog1.jpg",
-        link: "/blog/indoor-plant-tips"
+        link: "/blogs1"
     },
     {
         id: 2,

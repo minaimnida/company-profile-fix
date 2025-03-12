@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Jumbotron = () => {
   return (
-    <section className="py-0 md:py-10 px-0 md:px-12 w-full h-auto flex flex-col md:flex-row items-center bg-[#f9f5ef]  overflow-hidden gap-8">
+    <section className="container mx-auto py-0 md:py-10 px-0 md:px-12 w-full h-auto flex flex-col md:flex-row items-center bg-[#f9f5ef]  overflow-hidden gap-8">
 
       {/* Right Section - Image */}
       <div className="w-full md:w-1/2 flex justify-center md:justify-end mb-0 md:mb-0">
@@ -33,7 +33,7 @@ const Jumbotron = () => {
         {/* Call-to-Action Buttons */}
         <div className="flex space-x-4 py-4 md:py-0">
           <a
-            href="#products"
+            href="products"
             className="border border-[#508D4E] px-6 py-3 rounded-lg text-[#508D4E] hover:bg-[#508D4E] hover:text-white transition"
           >
             Explore Collection
