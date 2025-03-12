@@ -1,7 +1,7 @@
 export default function Blogs1() {
   return (
-    <div className="container mx-auto min-h-screen flex flex-col items-center justify-center p-8">
-      <article className="max-w-2xl w-full">
+    <div className=" min-h-screen flex flex-col items-center justify-center p-8 bg-white">
+      <article className="max-w-2xl w-full container mx-auto">
         <h1 className="text-4xl font-bold mb-6 text-center">
           How to Style Your Space with Furniture and Plants for a Natural, Calming Vibe
         </h1>

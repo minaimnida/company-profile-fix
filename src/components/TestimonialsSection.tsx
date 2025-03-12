@@ -25,14 +25,14 @@ const TestimonialsSection = () => {
   };
 
   return (
-    <section id="testimonials" className="container mx-auto py-20 bg-gray-50 text-center">
+    <section id="testimonials" className=" py-20 bg-gray-50 text-center">
       <h2 className="text-4xl font-bold text-green-700">Customer Testimonials</h2>
       <p className="text-lg text-gray-600 mt-4">
         Hear from some of our happy customers!
       </p>
 
       {/* Testimonials Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
+      <div className=" container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
         {testimonials.map((testimonial, index) => (
           <div key={index} className="bg-white p-6 rounded-lg shadow-md max-w-xs mx-auto">
             <img

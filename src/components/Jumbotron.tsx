@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const Jumbotron = () => {
   return (
-    <section className="container mx-auto py-0 md:py-10 px-0 md:px-12 w-full h-auto flex flex-col md:flex-row items-center bg-[#f9f5ef]  overflow-hidden gap-8">
+    <section className=" py-0 md:py-10 px-0 md:px-12 w-full h-auto flex flex-col md:flex-row items-center bg-[#f9f5ef]  overflow-hidden gap-8">
 
       {/* Right Section - Image */}
-      <div className="w-full md:w-1/2 flex justify-center md:justify-end mb-0 md:mb-0">
+      <div className="w-full md:w-1/2 flex justify-center md:justify-end mb-0 md:mb-0 container mx-auto">
         <Image
           src="/jumbopic.jpeg" // Change to the correct image path
           alt="Plants in Living Room"
